@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+
+  &__page {
+    background: transparent;
+
+    &-link {
+      color: #fff;
+      background: transparent;
+      border: none;
+      font-weight: normal;
+
+      &--active {
+        border: 1px solid orange;
+        border-radius: 50%;
+        color: orange;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+    }
+  }
+}
