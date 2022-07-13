@@ -1,0 +1,19 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 0.5px rgba(171, 165, 165, 0.2);
+
+  &__item {
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 5px;
+
+    &:hover {
+      cursor: pointer;
+      color: orange;
+    }
+  }
+}
